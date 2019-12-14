@@ -62,7 +62,7 @@ index = input('Enter the book number you want to download: ')
 index = int(index)
 if index <= len(books):
     mirrorindex = 0
-    l = books[index - 1].mirror_list
+    l = books[index].mirror_list
     for m in l:
         mirrorindex += 1
         print(f'{mirrorindex }. {m}')
